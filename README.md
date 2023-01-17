@@ -2,12 +2,12 @@
 
 This is a web scraper that collects Amazon review data for machine learning projects such as sentiment analysis. The program is built with global commands, allowing it to collect review data from any product on Amazon. It collects the following information for approximately 160 reviews per product search:
 
--Product name
--Price
--ASIN (Amazon Standard Identification Number)
--Review title
--Review text
--Review rating
+* Product name
+* Price
+* ASIN (Amazon Standard Identification Number)
+* Review title
+* Review text
+* Review rating
 
 The program collects the relevant information and stores it in a dataframe. Using the last code cell of the program, you can download this dataframe as a csv file.
 
